@@ -1,20 +1,20 @@
 module.exports = {
   meta: {
-    title: "My Purple Blog",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    title: "emarsh dot net",
+    description: "Just messing around.",
     lang: "en",
-    siteUrl: "https://example.com/",
+    siteUrl: "https://emarsh.net/",
   },
   feed: { // used in feed.xml.njk
-    subtitle: "Lorem ipsum dolor sit amet consecuteor",
+    subtitle: "messing around",
     filename: "atom.xml",
     path: "/atom.xml",
-    id: "https://example.com/",
-    authorName: "John Doe",
-    authorEmail: "johndoe@example.com"
+    id: "https://emarsh.net/",
+    authorName: "emarsh",
+    authorEmail: "erik@erikmarshall.net"
   },
   hero: { // used in hero section of main page ie. index.html.njk
-    title: "Welcome to my purple blog",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores accusantium deserunt odio esse."
+    title: "Welcome to my random site",
+    description: "A place for personal things"
   }
 }
